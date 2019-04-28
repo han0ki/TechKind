@@ -137,6 +137,7 @@
 </section>
 
 <!--- SLIDER --->
+
 <section class="slid">
 	  <div class="slider">
     <ul class="slides">
@@ -172,7 +173,6 @@
     </ul>
   </div>
 </section>
-
 
 <!--- CATALOG --->
 
