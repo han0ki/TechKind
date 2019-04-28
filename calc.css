@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+
+[v-cloak] {
+  display: none;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+a, a:visited {
+	outline:none;
+	
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, aside, nav{
+	display: block;
+}
+
+/*-------------------------
+	Форма заказа
+--------------------------*/
+
+form{
+    width: 1000px;
+    padding: 35px 60px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+form h1{
+	color:#fff;
+	font-size:64px;
+	font-family:'Cookie', cursive;
+	font-weight: normal;
+	line-height:1;
+	text-shadow:0 3px 0 rgba(0,0,0,0.1);
+}
+
+form ul{
+	list-style:none;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	text-align: left;
+	margin:20px 0 15px;
+}
+
+form ul li{
+	padding:20px 30px;
+	background-color:dimgray;
+	margin-bottom:8px;
+	box-shadow:0 1px 1px rgba(0,0,0,0.1);
+	cursor:pointer;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+form ul li span{
+	float:right;
+}
+
+form ul li.active{
+	background-color:#8ec16d;
+}
+
+div.total{
+	padding:15px 30px;
+	font-size:20px;
+	font-weight:bold;
+	text-align: left;
+	color:#fff;
+	
+}
+
+div.total span{
+	float:right;
+}
+
+.background2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  background-image: url("img/mujik.jpg");
+    position: relative;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+}

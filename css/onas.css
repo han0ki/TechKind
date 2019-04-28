@@ -1,0 +1,131 @@
+.gab{
+  width: 66% !important;
+}
+.gde{
+  position: relative;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/punk.jpg');
+  width: auto;
+  
+}
+.info{
+  text-align: center;
+  padding: 180px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+}
+.info p{
+  color:black;
+}
+.info2{
+text-align: center;
+font-size: 30px;
+color:black;
+font-family: 'Noto Sans', sans-serif;
+}
+#kb {
+background: url(/img/keyboard_bg.jpg)
+no-repeat top center #fcfcfc;
+height: 119px;
+color: #182632;
+font-size: 36px;
+text-align: center;
+ }
+.wrap {
+width: 960px;
+margin: 0 auto;
+position: relative;
+}
+#kb span {
+    font-size: 88px;
+    margin: 0 27px;
+    position: relative;
+    top: 11px;
+}
+#garants {
+    text-align: center;
+    padding: 40px 0 35px;
+}
+.dost{
+   margin-top: 40px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  height: 200px;
+  text-align: center;
+  background-color: rgba(56, 54, 59, 0.6);
+  
+}
+.textinfo{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.textinfo2{
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+.dost2{
+  margin-top: 40px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  height: 270px;
+  text-align: center;
+  background-color: rgba(56, 54, 59, 0.6);
+}
+
+#dostoinstva .title{
+  text-align: center;
+    padding: 40px 0 35px;
+}
+#icon{
+  padding: 5px;
+  font-size: 50px;
+}
+#st{
+
+        display: inline;
+    background: rgba(8, 8, 8, 0.75);
+    -webkit-box-decoration-break: clone;
+    border-radius: 2.66667px;
+    white-space: pre-wrap;
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+    
+}
+#st1{
+
+  
+    display: inline;
+    background: rgba(8, 8, 8, 0.75);
+    -webkit-box-decoration-break: clone;
+    border-radius: 2.66667px;
+    white-space: pre-wrap;
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+    
+}
+.fon{
+  background-color: #424242;
+}
+.character-counter{
+display: none;
+}
+
+
+
+@media only screen and (max-width: 580px){
+.sas {
+  font-size: 60px !important;
+}
+}
+@media only screen and (max-width: 560px){
+.info {
+  padding: 0px !important;
+}
+}
