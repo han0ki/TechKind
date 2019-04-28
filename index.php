@@ -21,14 +21,11 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-  
 </head>
 <body>
 <!--- MENU --->
 <div id="page-preloader">
   <span class="techkind">
-    
   </span>
 </div>
 </div>
@@ -451,5 +448,15 @@ require_once 'contr.php';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="wow.js"></script>
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lda2p8UAAAAAEsZH7_Uvyz4HHCp5w_EnPhvFfUv"></script>
+
+<script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6Lda2p8UAAAAAEsZH7_Uvyz4HHCp5w_EnPhvFfUv', {action: 'homepage'}).then(function(token) {
+         
+      });
+  });
+  </script>
 </body>
 </html>
