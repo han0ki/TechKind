@@ -138,41 +138,7 @@
 
 <!--- SLIDER --->
 
-<section class="slid">
-	  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="img/electronics.png" alt=""> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Качественная работа профессионалов</h3>
-          <h5 class="light grey-text text-lighten-3">Мы лучшие среди конкурентов в своем деле.</h5>
-          <img src="img/" alt="">
-        </div>
-      </li>
-      <li>
-        <img src="img/remont-1.jpg" alt=""> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Оптимизация ПК</h3>
-          <h5 class="light grey-text text-lighten-3">Мы готовы вам помочь в оптимизации персонального компьютера, для лучшего быстродействия системы</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/moskva_sevao.jpg"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Про поломке</h3>
-          <h5 class="light grey-text text-lighten-3">Наш сервисный центр готов взяться за различные случаи поломок. В случаи если не удалось устранить повреждение, готовы предоставить услугу по заказу и замене детали</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/325235.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Ремонт ПК</h3>
-          <h5 class="light grey-text text-lighten-3">Наша команда предоставляет не только услуги по ремонту персональных компьютеров, а так же индивидуальная сборка для каждого клиента</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
+
 
 <!--- CATALOG --->
 
